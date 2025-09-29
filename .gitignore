@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -205,3 +205,40 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project-specific
+# Output directories
+output/
+results/
+example_output/
+batch_output/
+
+# Data files (keep structure but not actual data)
+data/chromatograms/*.ab1
+data/chromatograms/*.abi
+data/chromatograms/*.scf
+data/examples/*.ab1
+data/examples/*.abi 
+data/examples/*.scf
+
+# Generated files
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+
+# OS-specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
